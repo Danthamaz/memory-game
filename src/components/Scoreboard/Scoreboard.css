@@ -1,0 +1,33 @@
+div {
+  width: 100%;
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 50px;
+  background: #6caddc;
+  border-radius: 2px;
+  height: auto;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+
+div li {
+  display: inline-block;
+  padding: 26px 0;
+  width: 25%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
